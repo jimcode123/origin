@@ -12,5 +12,5 @@ class Foo(ZeekControl.plugin.Plugin):
         return 1
 
     def init(self):
-        self.message("foo plugin is initialized")
+        self.message("The newfoo plugin is initialized")
         return True
