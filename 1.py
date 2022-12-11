@@ -8,9 +8,6 @@ class test(ZeekControl.plugin.Plugin):
     def name(self):
         return "test"
 
-    def prefix(self):
-        return "test"
-
     def pluginVersion(self):
         return 1
 
