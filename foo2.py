@@ -1,7 +1,7 @@
 import ZeekControl.plugin
 import ZeekControl.cmdresult
 
-class TestPlugin(ZeekControl.plugin.Plugin):
+class TestPlugin2(ZeekControl.plugin.Plugin):
     def __init__(self):
         super(TestPlugin, self).__init__(apiversion=1)
 
