@@ -11,15 +11,3 @@ class test(ZeekControl.plugin.Plugin):
     def pluginVersion(self):
         return 1
 
-    def options(self):
-        return [("foo", "int", 1, "Just a test option."),
-                ("enabled", "bool", False, "Set to enable plugin")]
-
-    def commands(self):
-        return [("bar", "", "A test command from the Test plugin.")]
-
-    def cmd_check_pre(self, nodes):
-        self.message("test: Test pre 'check':  %s" % self._nodes(nodes))
-
-    def cmd_check_post(self, results):
-        self.message("test: Test post 'check': %s" % self._results(results))
